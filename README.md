@@ -71,4 +71,6 @@ Feel free to contribute to this project by submitting pull requests.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Sample output
+![MERN TODO List App](https://drive.google.com/uc?id=1RZEV9e3LKEoEFbBmCfNFjEb_PU8uIfow)
 

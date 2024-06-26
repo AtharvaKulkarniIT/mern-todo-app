@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px; 
+  padding: 20px;
+}
+
+input[type='text'] {
+  flex: 1; 
+  padding: 15px;
+  margin: 5px 0;
+  border-radius: 7px;
+  background-color: bisque;
+  color: black;
+  border: none;
+  min-width: 400px;
+}
+
+button {
+  padding: 15px;
+  margin-left: 10px;
+  border-radius: 7px;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  cursor: pointer;
+  min-width: 80px; 
+}
+
+button:hover {
+  background-color: rgb(84, 19, 146);
+}
+.task {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #f0f0f0;
+  color: black;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 100%; 
+}
+
+.task .checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.task .icon {
+  cursor: pointer;
+  font-size: 20px;
+  color: blueviolet; 
+  margin-left: 10px; 
+}
+
+.task p {
+  margin-left: 10px; 
+}
+
+.through{
+  text-decoration: line-through;
+}
+.normal{
+  text-decoration: none;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 600px) {
+  .create-form {
+    flex-direction: column; /* Stack input and button vertically on smaller screens */
+    align-items: stretch;
+  }
+
+  button {
+    margin-top: 10px;
+    background-color: blueviolet; 
+    height: 30px;
+    min-width: 350px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .task{
+    align-items: stretch;
+
+  }
+}
+

@@ -61,7 +61,7 @@ The server will run on `http://localhost:5000` and the client on `http://localho
 ## Usage
 
 - Open your web browser and go to `http://localhost:3000`.
-- You can add tasks, mark them as completed or delete them.
+- You can add ,update tasks, mark them as completed or delete them.
 
 ## Contributing
 
@@ -71,6 +71,5 @@ Feel free to contribute to this project by submitting pull requests.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Sample output
-![MERN TODO List App](https://drive.google.com/uc?id=1RZEV9e3LKEoEFbBmCfNFjEb_PU8uIfow)
-
+## Output
+![MERN TODO List App](https://drive.google.com/uc?id=135HfGq09XYieu-1sG9pQeQ41Sx1ytZ1m)
